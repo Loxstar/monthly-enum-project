@@ -51,7 +51,7 @@ public class Main {
         if (futMonths.isEmpty()) {
             System.out.println("Invalid month");
         } else {
-            for (Month monthName : Month.values()) {
+            for (Month monthName : futMonths) {
                 System.out.println(monthName.getEnglishName());
             }
         }
